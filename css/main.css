@@ -15,6 +15,13 @@ body {
     margin: 2rem auto;
 }
 
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #2c3e50;
+}
+
 a {
     color: #e74c3c;
     text-decoration: none;
@@ -53,6 +60,19 @@ form > ul > li {
     margin-bottom: 1.5em;
 }
 
+form > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+input {
+    padding: 1em;
+    border: 2px solid #2c3e50;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
 form {
     padding: 20px;
     margin: 2em auto 80px;
@@ -63,5 +83,8 @@ form {
 
 label {
     display: block;
+    margin-bottom: .5em;
+    font-weight: bold;
+    cursor: pointer;
 }
 
