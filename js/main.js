@@ -1,6 +1,6 @@
 /**
- * @author Steve Fallet
- * @since 2022.09.06
+ * @author Soane Bernon
+ * @since 19.09.2023
  */
 
 'use strict';
