@@ -64,7 +64,8 @@ form > ul > li:last-child {
     margin-bottom: 0;
 }
 
-input {
+input,
+select {
     padding: 1em;
     border: 2px solid #2c3e50;
     width: 100%;
@@ -88,3 +89,28 @@ label {
     cursor: pointer;
 }
 
+label input {
+    width: auto;
+}
+
+label > input + span {
+    font-weight: normal;
+}
+
+label > input:checked + span {
+    font-weight: bold;
+}
+
+fieldset {
+    border: 2px solid #2c3e50;
+    padding: 0 1em;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 .5em;
+}
+
+fieldset label {
+    padding: 1em 0;
+}
